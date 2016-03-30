@@ -8,12 +8,13 @@
 }
 
 #slideshow > div { 
-    position: absolute; 
+    position: initial; 
     top: 10px; 
     left: 10px; 
     right: 10px; 
     bottom: 10px; 
 }
+
 .navbar-default {
 	color: #000000;
     background-color: #000000;
@@ -34,10 +35,17 @@ display: inline-block;}
     font-family: LeviReBrushed;
     src: url(LeviRebrushed.tff)format('embedding-opentype');
 }
+h1 {
+    letter-spacing: 8px;
+}
 
 body {
-    background-image: url("../img/smoke.jpg");
+    background-image: url("../img/greywood.jpg");
+	background-repeat: repeat-x;
+	}
 	
-   
+	p {
+    margin-bottom: 10cm;
 }
+
 
